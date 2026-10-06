@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LULU Fashion - Assignment 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">LULU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section id="home" class="hero-section py-5">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-7">
+                <p class="text-uppercase fw-bold">LULU Fashion</p>
+                <h1 class="display-3 fw-bold">Style that feels like you.</h1>
+                <p class="lead">Modern women's clothing made for everyday elegance and comfort.</p>
+                <a href="#products" class="btn btn-dark px-4 py-2">Shop Collection</a>
+            </div>
+            <div class="col-12 col-lg-5 text-center mt-4 mt-lg-0">
+                <div class="hero-box">NEW COLLECTION</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about" class="py-5">
+    <div class="container py-4">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6 order-2 order-md-1">
+                <h2 class="fw-bold">About LULU</h2>
+                <p>LULU is a women's fashion brand focused on comfortable, modern and elegant clothing.</p>
+                <p>We combine simple design, quality fabrics and everyday style.</p>
+                <div class="d-none d-md-block text-muted fw-bold mt-4">PREMIUM WOMEN'S COLLECTION</div>
+            </div>
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+                <div class="about-box d-flex justify-content-center align-items-center">LULU</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Task 1: own Media Queries -->
+<section id="services" class="services-section">
+    <div class="services-container">
+        <h2 class="services-title">Our Services</h2>
+        <div class="services-grid">
+            <article class="service-card">
+                <div class="service-icon">01</div>
+                <h3>Personal Style</h3>
+                <p>We help you choose outfits that match your personal style.</p>
+            </article>
+            <article class="service-card">
+                <div class="service-icon">02</div>
+                <h3>Quality Fabrics</h3>
+                <p>We select comfortable and high-quality materials for our collections.</p>
+            </article>
+            <article class="service-card">
+                <div class="service-icon">03</div>
+                <h3>New Collections</h3>
+                <p>We regularly add modern pieces for every season.</p>
+            </article>
+            <article class="service-card">
+                <div class="service-icon">04</div>
+                <h3>Easy Shopping</h3>
+                <p>Our collection is designed to make everyday shopping simple.</p>
+            </article>
+            <article class="service-card">
+                <div class="service-icon">05</div>
+                <h3>Gift Ideas</h3>
+                <p>Find elegant and useful gifts for the women you love.</p>
+            </article>
+            <article class="service-card">
+                <div class="service-icon">06</div>
+                <h3>Customer Support</h3>
+                <p>We are always ready to help with your questions.</p>
+            </article>
+        </div>
+    </div>
+</section>
+<section id="products" class="py-5 bg-light">
+    <div class="container py-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <p class="text-uppercase text-muted fw-bold mb-1">Collection</p>
+                <h2 class="fw-bold mb-0">Featured Products</h2>
+            </div>
+            <span class="badge text-bg-dark d-none d-sm-block">NEW</span>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="product-image">LINEN DRESS</div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Linen Dress</h5>
+                        <p class="card-text">Elegant and comfortable dress for everyday style.</p>
+                        <a href="#contact" class="btn btn-dark mt-auto">View Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="product-image">LINEN SET</div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Linen Set</h5>
+                        <p class="card-text">A modern two-piece set with a relaxed silhouette.</p>
+                        <a href="#contact" class="btn btn-dark mt-auto">View Product</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="product-image">CLASSIC SHIRT</div>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Classic Shirt</h5>
+                        <p class="card-text">A timeless shirt that can be combined with different outfits.</p>
+                        <a href="#contact" class="btn btn-dark mt-auto">View Product</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="py-5">
+    <div class="container py-4">
+        <div class="row g-4">
+            <div class="col-12 col-lg-8">
+                <h2 class="fw-bold">Contact LULU</h2>
+                <p>Have a question about our collection? Contact us and we will be happy to help.</p>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="p-4 bg-dark text-white rounded">
+                    <p class="mb-2"><strong>Instagram:</strong> @lulu.brand.kz</p>
+                    <p class="mb-2"><strong>Location:</strong> Almaty, Kazakhstan</p>
+                    <p class="mb-0"><strong>Email:</strong> hello@lulu.kz</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">© 2026 LULU Fashion</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
